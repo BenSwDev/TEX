@@ -1,5 +1,5 @@
 /** @type {import("prettier").Config} */
-export default {
+const config = {
   printWidth: 100,
   tabWidth: 2,
   singleQuote: false,
@@ -7,3 +7,5 @@ export default {
   semi: true,
   plugins: [],
 };
+
+export default config;
